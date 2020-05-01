@@ -2,8 +2,12 @@
 
 ### Assumptions
 
-- Apart from the assumptions in the document we assume tax is same across the country
+- Tax is implemented with the assumption,  tax is same across the country
 - Unique id that is exposed via API is auto generated. But hardcoding this since there is no listing API 
+- Not using the request location data to identify the requesting country and filter resluts by country
+
+### Other Notes
+
 - H2 Database used for the test to run code quickly
 - Added Unit Test for controller which can be executed via IDE
 
